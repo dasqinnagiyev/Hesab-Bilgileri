@@ -36,7 +36,7 @@ python3 -m dasqin.py
 <b># BotFather Komandaları:</b>
 <code>
 start - Botu başlat.<br>
-haqqinda - Haqqında panelini göstər.<br>
+<br>haqqinda - Haqqında panelini göstər.<br>
 yardim - Yardım mesajını göstərir.<br>
 id - Sadəcə ID göstər.<br>
 info - Hesab haqqında ümumi məlumatları göstərir.<br>
