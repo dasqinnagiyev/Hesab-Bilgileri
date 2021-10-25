@@ -34,7 +34,7 @@ python3 -m dasqin.py
 </p>
 </details>
 <b># BotFather Komandaları:</b><p>
-<code>
+<input>
 start - Botu başlat.<p>
 haqqinda - Haqqında panelini göstər.<p>
 yardim - Yardım mesajını göstərir.<p>
@@ -42,7 +42,7 @@ id - Sadəcə ID göstər.<p>
 info - Hesab haqqında ümumi məlumatları göstərir.<p>
 json - Mesaj, sticker, media kimi mesajları json faylı şəklində göndərir.<p>
 stickerid - Sticker paketinin ID-si üçün stickeri göndər və cavabla (reply) deyərək komandanı ver.
-</code>
+</input>
 
 
 # BOT XÜSUSİYYƏTLƏRİ
