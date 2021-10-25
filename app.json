@@ -1,0 +1,47 @@
+{
+    "name": "Hesab bilgiləri",
+    "description": "Bot by @dasqinnagiyev",
+    "logo": "https://telegra.ph/file/3143fe1c9d0146fea1e6f.jpg",
+    "stack": "container",
+    "keywords": [
+        "Telegram",
+        "Id",
+        "Bot"
+    ],
+    "website": "https://instagram.com/dasqinnagiyev",
+    "repository": "https://github.com/dasqinnagiyev/Hesab-Bilgileri",
+    "success_url": "https://instagram.com/dasqinnagiyev",
+    "env": {
+        "API_ID": {
+            "description": "APP ID bu dəyəri my.telegram.org saytından əldə et",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "API Hash bu dəyəri my.telegram.org saytından əldə et",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot Token bu dəyəri @BotFather-dən əldə et",
+            "value": ""
+        },
+        "UPDATE_CHANNEL": {
+            "description": "Kanalın istifadəçi adı @ işarəsi olmadan yaz məsələn dasqin",
+            "value": "dasqin"
+        },
+        "BOT_USERNAME": {
+            "description": "Bot-un istifadəçi adı @ işarəsi olmadan yaz",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
