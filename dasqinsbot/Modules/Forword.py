@@ -49,7 +49,7 @@ async def info(dasqin, msg):
         hidden = msg.forward_sender_name
         if hidden:
             await msg.reply(
-                f"❌️Xəta <b><i>{hidden}</i></b>",
+                f"❌️Xəta istifadəçi hesabını gizləyib <b><i>{hidden}</i></b>",
                 quote=True,
             )
         else:
@@ -58,9 +58,9 @@ async def info(dasqin, msg):
                 text += "<u>📢 Kanal</u>"
             if msg.forward_from_chat["type"] == "supergroup":
                 text += "<u>🗣️ Grup</u>"
-            text += f'\n\n📃 Kimdən {msg.forward_from_chat["title"]}'
+            text += f'\n\n📃 Adı {msg.forward_from_chat["title"]}'
             if msg.forward_from_chat["username"]:
-                text += f'\n\n➡️ Kimdən : @{msg.forward_from_chat["username"]}'
+                text += f'\n\n➡️ İstifadəçi adı : @{msg.forward_from_chat["username"]}'
                 text += f'\n\n🆔 ID : `{msg.forward_from_chat["id"]}`'
             else:
                 text += f'\n\n🆔 ID `{msg.forward_from_chat["id"]}`\n\n'
