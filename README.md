@@ -33,33 +33,8 @@ python3 -m dasqin.py
 </pre>
 </p>
 </details>
-<style>
-.mainBox{
-display:block;
-max-width:100%;
-height:auto;
-padding:2.5%;
-background-color:#f1f1f1;
-margin:5px auto;
-border:solid 1px #dfe6e9;
-box-sizing:border-box;
-}
-.innerBox{
-background-color:#ffffff;
-padding:5px;
-width:100%;
-height:auto;
-display:block;
-border:0px;
-border-left: solid 3px #e74c3c;
-text-align:justify;
-box-sizing:border-box;
-color:#2c3e50;
-}
-
-</style>
-<div class="mainBox">
-	<div  class="innerBox">
+<b># BotFather Komandaları:</b>
+<code>
 start - Botu başlat.<br>
 <br>haqqinda - Haqqında panelini göstər.<br>
 yardim - Yardım mesajını göstərir.<br>
@@ -67,10 +42,6 @@ id - Sadəcə ID göstər.<br>
 info - Hesab haqqında ümumi məlumatları göstərir.<br>
 json - Mesaj, sticker, media kimi mesajları json faylı şəklində göndərir.<br>
 stickerid - Sticker paketinin ID-si üçün stickeri göndər və cavabla (reply) deyərək komandanı ver.
-    </div>
-</div><b># BotFather Komandaları:</b>
-<code>
-gg
 </code>
 
 
