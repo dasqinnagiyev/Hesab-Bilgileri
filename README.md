@@ -33,16 +33,16 @@ python3 -m dasqin.py
 </pre>
 </p>
 </details>
-# BotFather Komandaları:
-<code>```
-start - Botu başlat.
-haqqinda - Haqqında panelini göstər.
-yardim - Yardım mesajını göstərir.
-id - Sadəcə ID göstər.
-info - Hesab haqqında ümumi məlumatları göstərir.
-json - Mesaj, sticker, media kimi mesajları json faylı şəklində göndərir.
+<b># BotFather Komandaları:</b>
+<code>
+start - Botu başlat.<br>
+haqqinda - Haqqında panelini göstər.<br>
+yardim - Yardım mesajını göstərir.<br>
+id - Sadəcə ID göstər.<br>
+info - Hesab haqqında ümumi məlumatları göstərir.<br>
+json - Mesaj, sticker, media kimi mesajları json faylı şəklində göndərir.<br>
 stickerid - Sticker paketinin ID-si üçün stickeri göndər və cavabla (reply) deyərək komandanı ver.
-```</code>
+</code>
 
 
 # BOT XÜSUSİYYƏTLƏRİ
