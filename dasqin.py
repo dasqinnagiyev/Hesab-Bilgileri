@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 
 from pyrogram import Client 
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
-from MT_ID_Bot.Config import Config
+from dasqinsbot.Config import Config
 
 if __name__ == "__main__" :
     plugins = dict(
