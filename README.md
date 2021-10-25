@@ -13,17 +13,6 @@
 
   </a>  
 </p>
-### BotFather Komandaları:
-```
-start - Botu başlat.
-haqqinda - Haqqında panelini göstər.
-yardim - Yardım mesajını göstərir.
-id - Sadəcə ID göstər.
-info - Hesab haqqında ümumi məlumatları göstərir.
-json - Mesaj, sticker, media kimi mesajları json faylı şəklində göndərir.
-stickerid - Sticker paketinin ID-si üçün stickeri göndər və cavabla (reply) deyərək komandanı ver.
-```
-
 <details><summary>Deploy Heroku</summary>
 <p>
 <br>
@@ -44,6 +33,17 @@ python3 -m dasqin.py
 </pre>
 </p>
 </details>
+### BotFather Komandaları:
+```
+start - Botu başlat.
+haqqinda - Haqqında panelini göstər.
+yardim - Yardım mesajını göstərir.
+id - Sadəcə ID göstər.
+info - Hesab haqqında ümumi məlumatları göstərir.
+json - Mesaj, sticker, media kimi mesajları json faylı şəklində göndərir.
+stickerid - Sticker paketinin ID-si üçün stickeri göndər və cavabla (reply) deyərək komandanı ver.
+```
+
 
 # BOT XÜSUSİYYƏTLƏRİ
 
